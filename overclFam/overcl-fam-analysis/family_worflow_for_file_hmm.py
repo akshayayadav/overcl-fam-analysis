@@ -1,18 +1,20 @@
 import sys
 import re
-from fasta_database import FamFastaDatabase
-from family_search import PhmmerFamilySearch
-from closest_nonfamily_sequences import ClosestNonFamilySequences
-from write_sequences import WriteSequencesToFile
+
+from build_family_msa import BuildFastaMSA
+from build_hmm import BuildHMM
+from execute_hmmsearch import HMMsearch
+from closest_nonfamily_sequences_hmm import ClosestNonFamilySequencesHMMsearch
+from write_sequences_hmm import WriteSequencesToFile
 from build_msa import BuildMSA
 from tree_building import BuildRAxMLTree
 from family_scoring import PairBasedTreeScore
 from clade_extraction import IngroupClades
 
 
-def execute_workflow_for_family(fam_id, phmmer_evalue_cutoff, msa_num_threads, outgroup_id_arr,
+def execute_workflow_for_family(fam_id, hmmsearch_evalue_cutoff, msa_num_threads, outgroup_id_arr,
                                 tree_building_num_threads, clade_species_representation_cutoff,
-                                non_family_seq_representation_cutoff):
+                                non_family_seq_count_cutoff):
     # fam_id = "OG0000243"
     # phmmer_evalue_cutoff = "1e-5"
     # msa_num_threads = 5
@@ -22,19 +24,24 @@ def execute_workflow_for_family(fam_id, phmmer_evalue_cutoff, msa_num_threads, o
 
     print 'Processing family {}'.format(fam_id)
 
-    print "Preparing fasta database"
-    family_fasta_database = FamFastaDatabase(fam_id)
-    family_fasta_database.prepare_fasta_database()
-    print "Fasta database done"
+    print "Building family MSA"
+    family_msa = BuildFastaMSA(fam_id)
+    family_msa.build_msa_from_fasta()
+    print "Family MSA done"
 
-    print "Phmmer database search"
-    phmmer_family_search = PhmmerFamilySearch(fam_id, phmmer_evalue_cutoff)
-    phmmer_family_search.execute_phmmer_familyfasta_vs_masterfasta()
-    print "Phmmer database search done"
+    print "Building family HMM"
+    family_hmm = BuildHMM(fam_id)
+    family_hmm.build_hmm_from_msa()
+    print "Family HMM done"
+
+    print "Searching family HMM against outgroup fasta"
+    family_hmmsearch = HMMsearch(fam_id, hmmsearch_evalue_cutoff)
+    family_hmmsearch.search_family_hmm_against_outgroupfasta()
+    print "Family HMM search against outgroup fasta done"
 
     print "Searching for closest outgroup sequences"
-    closest_outgroup_sequences = ClosestNonFamilySequences(fam_id, non_family_seq_representation_cutoff)
-    status = closest_outgroup_sequences.get_sequences_from_phmmer_search()
+    closest_outgroup_sequences = ClosestNonFamilySequencesHMMsearch(fam_id, non_family_seq_count_cutoff)
+    status = closest_outgroup_sequences.get_top_sequences_from_hmmsearch()
     if status == 0:
         return None
     print "Closest outgroup sequence search done"

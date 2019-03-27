@@ -32,7 +32,8 @@ class ClosestNonFamilySequences(BasePath):
 
         phmmertblout_file.close()
         query_subject_dict = self.remove_worst_nonfamily_sequences(query_subject_dict, family_seqid_dict)
-        self.print_sequence_list(query_subject_dict, seqlist_filename)
+        status = self.print_sequence_list(query_subject_dict, seqlist_filename)
+        return status
 
     @staticmethod
     def get_family_seqid_dict(family_fasta_filename):
@@ -98,13 +99,14 @@ class ClosestNonFamilySequences(BasePath):
 
         if len(seqid_dict) == len(query_subject_dict):
             print "No outgroup sequences found. Exiting..."
-            sys.exit()
+            return 0
 
         seqlist_file = open(seqlist_filename, "w")
         for seq in seqid_dict:
             seqlist_file.write(seq + "\n")
 
         seqlist_file.close()
+        return 1
 
 
 if __name__ == '__main__':
