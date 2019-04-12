@@ -1,12 +1,13 @@
 class BasePath:
-    outpath = "/home/aayadav/research/overcl-fam-analysis/merged_orthofinder_legumes/"
+    outpath = "/home/aayadav/research/overcl-fam-analysis/orthofinder_legumes/"
     outgroup_fasta_filename = "/data/orthofinder_legumes/02_proteomes_outgroup/orthofinder_legumes_outgroups.fa"
-    family_fasta_filedir = "/data/orthofinder_legumes/merged_orthofinder_legumes_family_fasta/"
+    family_fasta_filedir = "/data/orthofinder_legumes/orthofinder_legumes_family_fasta/"
     species_profile_filename = "/home/aayadav/research/overcl-fam-analysis/legume.profile"
 
     phmmer_executable = "phmmer"
     mafft_executable = "mafft"
     raxml_executable = "raxmlHPC-PTHREADS-AVX"
+    fasttree_executable = "FastTreeMP"
     hmmbuild_executable = "hmmbuild"
     hmmsearch_executable = "hmmsearch"
 
@@ -17,6 +18,8 @@ class BasePath:
     msa_outfileextension = "_outgroup_sequences.fa.msa"
     msa_famoutfileextension = ".msa"
     raxml_tree_fileprefix = "RAxML_bestTree."
+    fasttree_fileextension = ".fasttree"
+    rooted_fasttree_fileextension = ".rooted_fasttree"
     tree_score_fileextension = ".tree_score"
     clade_fileextension = ".ingroup_monophyletic_clades"
     hmm_fileextension = ".hmm"

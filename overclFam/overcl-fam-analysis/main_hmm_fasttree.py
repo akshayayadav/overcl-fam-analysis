@@ -1,4 +1,4 @@
-from family_workflow_for_dir_hmm import FamilyWorflowFamFastaDir
+from family_workflow_for_dir_hmm_fastree import FamilyWorflowFamFastaDir
 
 min_family_size = 120
 max_family_size = 120

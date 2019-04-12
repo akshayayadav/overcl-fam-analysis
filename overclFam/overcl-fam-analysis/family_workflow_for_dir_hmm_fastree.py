@@ -2,7 +2,7 @@ import os
 import operator
 from base_overclfam import BasePath
 from fasta_operations import count_sequences_from_fasta
-from family_worflow_for_file_hmm import execute_workflow_for_family
+from family_worflow_for_file_hmm_fasttree import execute_workflow_for_family
 
 
 class FamilyWorflowFamFastaDir(BasePath):
