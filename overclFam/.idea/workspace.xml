@@ -4,8 +4,7 @@
     <list default="true" id="bc17d73e-0b91-4112-a838-d0e3a54a06fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/overcl-fam-analysis/base_overclfam.py" beforeDir="false" afterPath="$PROJECT_DIR$/overcl-fam-analysis/base_overclfam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_hmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_hmm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overcl-fam-analysis/main_hmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/overcl-fam-analysis/main_hmm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overcl-fam-analysis/closest_nonfamily_sequences_hmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/overcl-fam-analysis/closest_nonfamily_sequences_hmm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,52 +14,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/main_hmm_fasttree.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/main_rooted_tree_worflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="30">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_hmm_fastree.py">
+        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/clade_extraction_rooted_tree_workflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_hmm_fasttree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/root_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+            <state relative-caret-position="195">
+              <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/clade_extration_fasttree.py">
+        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_rooted_tree_workflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_scoring_rooted_tree_workflow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_rooted_tree_workflow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +117,6 @@
         <option value="$PROJECT_DIR$/overcl-fam-analysis/build_family_msa.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/execute_hmmsearch.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/build_hmm.py" />
-        <option value="$PROJECT_DIR$/overcl-fam-analysis/closest_nonfamily_sequences_hmm.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/fasta_operations.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/write_sequences_hmm.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_hmm.py" />
@@ -120,13 +124,21 @@
         <option value="$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_hmm.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/main_hmm.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/tree_building_fasttree.py" />
-        <option value="$PROJECT_DIR$/overcl-fam-analysis/base_overclfam.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/family_scoring_fasttree.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/clade_extration_fasttree.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_hmm_fastree.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/main_hmm_fasttree.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_hmm_fasttree.py" />
         <option value="$PROJECT_DIR$/overcl-fam-analysis/root_tree.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/closest_nonfamily_sequences_hmm.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/familly_scoring_rooted_tree_workflow.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_rooted_tree_worflow.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/family_scoring_rooted_tree_workflow.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_rooted_tree_workflow.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/clade_extraction_rooted_tree_workflow.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/base_overclfam.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/main_rooted_tree_worflow.py" />
+        <option value="$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_rooted_tree_workflow.py" />
       </list>
     </option>
   </component>
@@ -142,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,11 +297,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main_hmm" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.fasta_database" />
       <item itemvalue="Python.base_overclfam" />
       <item itemvalue="Python.family_workflow_for_file" />
+      <item itemvalue="Python.fasta_database" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main_hmm" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -316,9 +328,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="-4" width="1871" height="1205" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18634886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14572048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,26 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/build_family_msa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/build_msa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/write_sequences_hmm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -513,30 +504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_scoring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/tree_building.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/closest_nonfamily_sequences_hmm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="119" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="119" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -553,37 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/base_overclfam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/main_hmm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="32" lean-forward="true" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_scoring_fasttree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/clade_extration_fasttree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,24 +541,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/closest_nonfamily_sequences_hmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/build_msa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_scoring_fasttree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-end-line="91" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/clade_extration_fasttree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_scoring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_hmm_fasttree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="20" column="35" lean-forward="true" selection-end-line="94" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/build_family_msa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_hmm_fastree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_rooted_tree_worflow.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/main_hmm_fasttree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" column="95" lean-forward="true" selection-start-column="1" selection-end-line="15" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/base_overclfam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/main_rooted_tree_worflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_workflow_for_dir_rooted_tree_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/clade_extraction_rooted_tree_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_worflow_for_file_rooted_tree_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overcl-fam-analysis/family_scoring_rooted_tree_workflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

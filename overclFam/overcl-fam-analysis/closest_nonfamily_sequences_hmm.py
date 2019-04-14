@@ -24,7 +24,7 @@ class ClosestNonFamilySequencesHMMsearch(BasePath):
                 break
 
         if len(seqid_list) == 0:
-            print "No outgroup sequences found"
+            print "No outgroup sequences found\n\n"
             return 0
 
         fam_seqlist = get_sequenceids_from_fasta (BasePath.family_fasta_filedir + "/" + self.fam_id)
