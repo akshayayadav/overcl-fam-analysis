@@ -1,7 +1,7 @@
 from family_workflow_for_dir_hmm_fastree import FamilyWorflowFamFastaDir
 
-min_family_size = 120
-max_family_size = 120
+min_family_size = 2
+max_family_size = 1271
 hmmsearch_evalue_cutoff = "1e-5"
 msa_num_threads = 4
 outgroup_id_arr = ['prupe', 'cucsa', 'arath', 'vitvi', 'solly']

@@ -1,11 +1,11 @@
 class BasePath:
-    outpath = "/home/aayadav/research/overcl-fam-analysis/lgf5/"
-    outgroup_fasta_filename = "/data/orthofinder_legumes/02_proteomes_outgroup/orthofinder_legumes_outgroups.fa"
-    family_fasta_filedir = "/data/orthofinder_legumes/orthofinder_legumes_family_fasta/"
+    outpath = "/home/aayadav/research/overcl-fam-analysis/lgf5_ingroup_hmmsearch_hmmscan_merged_uncl_corrected/"
+    outgroup_fasta_filename = "/home/aayadav/research/lgf5/02_proteomes_outgroup/lgf5_outgroups.fa"
+    family_fasta_filedir = "/home/aayadav/research/lgf5/52_family_fasta_ingroup_hmmsearch_hmmscan_merged_uncl_corrected/"
     species_profile_filename = "/home/aayadav/research/overcl-fam-analysis/legume.profile"
 
     # for workflow directly processing rooted family trees
-    rooted_famtrees_dir = "/data/lgf5/56_trees_combined/"
+    # rooted_famtrees_dir = "/data/lgf5/56_trees_combined/"
 
     phmmer_executable = "phmmer"
     mafft_executable = "mafft"
